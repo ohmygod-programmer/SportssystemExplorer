@@ -139,6 +139,7 @@ class MainFrame(title: String) : JFrame() {
             }
             if (name.isNotEmpty() && obj.get("info") != null) {
                 val button = JButton(name)
+                button.alignmentX = CENTER_ALIGNMENT
                 button.addActionListener(LandmarksListActionListener(this, obj))
                 panel.add(button)
                 count++
@@ -157,6 +158,7 @@ class MainFrame(title: String) : JFrame() {
             }
             if (name.isNotEmpty()) {
                 val button = JButton(name)
+                button.alignmentX = CENTER_ALIGNMENT
                 button.addActionListener(LandmarksListActionListener(this, obj))
                 panel.add(button)
                 count++
@@ -184,6 +186,7 @@ class MainFrame(title: String) : JFrame() {
         val landmarksPanel = JPanel()
         landmarksPanel.layout = BoxLayout(landmarksPanel, Y_AXIS)
         landmarksPanel.alignmentX = CENTER_ALIGNMENT
+        landmarksPanel.background = mainPanel.background
         parseLandmarks(landmarksJsonArray, landmarksPanel, 5)
 
 
@@ -197,7 +200,7 @@ class MainFrame(title: String) : JFrame() {
         mainPanel.repaint()
     }
 
-    private fun parselandmark(pane: Container, json: JsonObject) {
+    private fun parseLandmark(pane: Container, json: JsonObject) {
         if (json.get("preview") != null) {
             try {
                 val label =
@@ -238,7 +241,7 @@ class MainFrame(title: String) : JFrame() {
         mainPanel.add(restartButton)
 //        println(Gson().toJson(landmarkJson))
         val panel = JPanel()
-        parselandmark(mainPanel, landmarkJson)
+        parseLandmark(mainPanel, landmarkJson)
 
 //        val scrollPane = JScrollPane(panel, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED)
 
