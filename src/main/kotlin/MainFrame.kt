@@ -1,9 +1,9 @@
 package com.zetcode
 
-import LandmarksListActionListener
-import LocationsListActionListener
-import RestartButtonListActionListener
-import StartScreenActionListener
+import actionlisteners.LandmarksListActionListener
+import actionlisteners.LocationsListActionListener
+import actionlisteners.RestartButtonListActionListener
+import actionlisteners.StartScreenActionListener
 import com.google.gson.Gson
 import com.google.gson.JsonArray
 import com.google.gson.JsonElement
