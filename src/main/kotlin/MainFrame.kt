@@ -239,19 +239,13 @@ class MainFrame(title: String) : JFrame() {
         val restartButton = JButton("restart")
         restartButton.addActionListener(RestartButtonListActionListener(this))
         mainPanel.add(restartButton)
-//        println(Gson().toJson(landmarkJson))
         val panel = JPanel()
         parseLandmark(mainPanel, landmarkJson)
 
-//        val scrollPane = JScrollPane(panel, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED)
-
         mainPanel.add(panel)
-
-        //mainPanel.add(JLabel(Gson().toJson(landmarkJson)))
 
         mainPanel.revalidate()
         mainPanel.repaint()
-        //pack()
     }
 
 

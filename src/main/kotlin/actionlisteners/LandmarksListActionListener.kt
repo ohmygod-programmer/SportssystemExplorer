@@ -8,7 +8,6 @@ import java.awt.event.ActionListener
 import javax.swing.SwingUtilities
 
 class LandmarksListActionListener : ActionListener {
-    private val KEY = "0e04701b1054411b374b27b13faeee23"
     private val frame: MainFrame
     private val landmarkJSON: JsonObject
 
