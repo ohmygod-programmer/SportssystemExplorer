@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="forms.StartForm">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FormLayout">
+    <rowspec value="center:10dlu:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:20dlu:noGrow"/>
+    <rowspec value="top:5dlu:noGrow"/>
+    <rowspec value="center:10dlu:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:40dlu:noGrow"/>
+    <rowspec value="top:5dlu:noGrow"/>
+    <rowspec value="center:10dlu:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:40dlu:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:10dlu:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:40dlu:noGrow"/>
+    <rowspec value="top:5dlu:noGrow"/>
+    <rowspec value="center:10dlu:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:40dlu:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:10dlu:noGrow"/>
+    <colspec value="fill:10dlu:grow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:10dlu:grow"/>
+    <constraints>
+      <xy x="20" y="20" width="481" height="691"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="26e1f" class="javax.swing.JButton" binding="sportsmansButton">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="5"/>
+          </grid>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <defaultCapable value="true"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusable value="true"/>
+          <foreground color="-1"/>
+          <icon value="buttons/startScreen/button_sportsmeny.png"/>
+          <inheritsPopupMenu value="false"/>
+          <opaque value="false"/>
+          <pressedIcon value="buttons/startScreen/button_sportsmeny_pressed.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverEnabled value="true"/>
+          <rolloverIcon value="buttons/startScreen/button_sportsmeny_selected.png"/>
+          <selected value="false"/>
+          <selectedIcon value="buttons/startScreen/button_sportsmeny_selected.png"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="8bd2a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Black" size="16"/>
+          <text value="Что вы хотите посмотреть?"/>
+        </properties>
+      </component>
+      <component id="2c2c8" class="javax.swing.JButton" binding="competitionsButton">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="5"/>
+          </grid>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <defaultCapable value="true"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusable value="true"/>
+          <foreground color="-1"/>
+          <icon value="buttons/startScreen/button_sorevnovaniya.png"/>
+          <inheritsPopupMenu value="false"/>
+          <opaque value="false"/>
+          <pressedIcon value="buttons/startScreen/button_sorevnovaniya_pressed.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverEnabled value="true"/>
+          <rolloverIcon value="buttons/startScreen/button_sorevnovaniya_selected.png"/>
+          <selected value="false"/>
+          <selectedIcon value="buttons/startScreen/button_sportsmeny_selected.png"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="109cf" class="javax.swing.JButton" binding="trainersButton">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="5"/>
+          </grid>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <defaultCapable value="true"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusable value="true"/>
+          <foreground color="-1"/>
+          <icon value="buttons/startScreen/button_trenery.png"/>
+          <inheritsPopupMenu value="false"/>
+          <opaque value="false"/>
+          <pressedIcon value="buttons/startScreen/button_trenery_pressed.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverEnabled value="true"/>
+          <rolloverIcon value="buttons/startScreen/button_trenery_selected.png"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="c0502" class="javax.swing.JButton" binding="buildingsButton">
+        <constraints>
+          <grid row="18" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="5"/>
+          </grid>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <defaultCapable value="true"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusable value="true"/>
+          <foreground color="-1"/>
+          <icon value="buttons/startScreen/button_sooruzheniya.png"/>
+          <inheritsPopupMenu value="false"/>
+          <opaque value="false"/>
+          <pressedIcon value="buttons/startScreen/button_sooruzheniya_pressed.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverEnabled value="true"/>
+          <rolloverIcon value="buttons/startScreen/button_sooruzheniya_selected.png"/>
+          <selected value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

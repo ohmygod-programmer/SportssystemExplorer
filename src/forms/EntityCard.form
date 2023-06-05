@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="forms.EntityCard">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FormLayout">
+    <rowspec value="center:4dlu:noGrow"/>
+    <rowspec value="top:52dlu:noGrow"/>
+    <rowspec value="center:80dlu:noGrow"/>
+    <rowspec value="center:4dlu:noGrow"/>
+    <rowspec value="top:d:noGrow"/>
+    <rowspec value="center:38px:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:23px:noGrow"/>
+    <rowspec value="center:246px:grow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:4dlu:noGrow"/>
+    <colspec value="fill:4dlu:noGrow"/>
+    <colspec value="fill:50dlu:noGrow"/>
+    <colspec value="fill:151dlu:grow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:60dlu:noGrow"/>
+    <colspec value="fill:4dlu:noGrow"/>
+    <constraints>
+      <xy x="20" y="20" width="465" height="671"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="e3ca3" binding="dataPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="24d1d" class="javax.swing.JLabel" binding="loadingLabel">
+            <constraints border-constraint="North"/>
+            <properties>
+              <alignmentX value="0.5"/>
+              <background color="-1"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="loadgif.gif"/>
+              <inheritsPopupMenu value="false"/>
+              <text value=""/>
+              <visible value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="a6142" class="javax.swing.JLabel" binding="titleLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Black" size="16"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <text value="Entity"/>
+        </properties>
+      </component>
+      <component id="7c7cd" class="javax.swing.JButton" binding="backButton">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="5"/>
+          </grid>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <defaultCapable value="true"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusable value="true"/>
+          <foreground color="-1"/>
+          <icon value="buttons/button_back.png"/>
+          <inheritsPopupMenu value="false"/>
+          <opaque value="false"/>
+          <pressedIcon value="buttons/button_back_pressed.png"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverEnabled value="true"/>
+          <rolloverIcon value="buttons/button_back_selected.png"/>
+          <selected value="false"/>
+          <selectedIcon value="buttons/button_back_selected.png"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="ef50b" class="javax.swing.JLabel" binding="dataTitleLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="2" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI Black" size="16"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <text value="EntityData"/>
+        </properties>
+      </component>
+      <component id="9d6bc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="unknownImage.png"/>
+          <minimumSize width="-1" height="-1"/>
+          <preferredSize width="-1" height="-1"/>
+          <requestFocusEnabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="cc1ff" binding="infoPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a4f37" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-16777216"/>
+              <gridColor color="-986896"/>
+              <showVerticalLines value="false"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="46d89" binding="optionsPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
